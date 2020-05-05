@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29721.120
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyReflection", "MyReflection.csproj", "{9F8E8EA0-F9B1-4CE3-86A2-658D54955477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyReflection", "MyReflection.csproj", "{9F8E8EA0-F9B1-4CE3-86A2-658D54955477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.Interface", "..\DB.Interface\DB.Interface.csproj", "{F779259B-0368-4C4A-90FC-1A95EB6BA80B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB.Interface", "..\DB.Interface\DB.Interface.csproj", "{F779259B-0368-4C4A-90FC-1A95EB6BA80B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.SqlServer", "..\DB.SqlServer\DB.SqlServer.csproj", "{C3F0A2FD-A552-4199-B2D5-C0C3AE120A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB.SqlServer", "..\DB.SqlServer\DB.SqlServer.csproj", "{C3F0A2FD-A552-4199-B2D5-C0C3AE120A45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.MySql", "..\DB.MySql\DB.MySql.csproj", "{A1EA4AA5-49AA-4F6A-9EB9-6D61D757148A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB.MySql", "..\DB.MySql\DB.MySql.csproj", "{A1EA4AA5-49AA-4F6A-9EB9-6D61D757148A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB.Model", "..\DB.Model\DB.Model.csproj", "{6CCC09D2-72B9-4523-835D-C5CFA08A1E30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A1EA4AA5-49AA-4F6A-9EB9-6D61D757148A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1EA4AA5-49AA-4F6A-9EB9-6D61D757148A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1EA4AA5-49AA-4F6A-9EB9-6D61D757148A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCC09D2-72B9-4523-835D-C5CFA08A1E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCC09D2-72B9-4523-835D-C5CFA08A1E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCC09D2-72B9-4523-835D-C5CFA08A1E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCC09D2-72B9-4523-835D-C5CFA08A1E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
